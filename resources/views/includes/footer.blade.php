@@ -77,6 +77,29 @@
 </script>
 <!-- END: Page JS-->
 
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<!-- BEGIN: Vendor JS-->
+<script src="https://pixinvent.com/demo/vuexy-bootstrap-laravel-admin-template/demo/assets/vendor/libs/jquery/jquery.js?id=01fcabfe536d1e2e4bd35a244979a4dd"></script>
+<script src="https://pixinvent.com/demo/vuexy-bootstrap-laravel-admin-template/demo/assets/vendor/libs/popper/popper.js?id=1f8255bd80f17f73ba33c2d1210e5763"></script>
+<script src="https://pixinvent.com/demo/vuexy-bootstrap-laravel-admin-template/demo/assets/vendor/js/bootstrap.js?id=e8d152e16fcbf88a24e169913f610897"></script>
+<script src="https://pixinvent.com/demo/vuexy-bootstrap-laravel-admin-template/demo/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js?id=9d86308b7c41e76a7dc8472907865b83"></script>
+<script src="https://pixinvent.com/demo/vuexy-bootstrap-laravel-admin-template/demo/assets/vendor/libs/node-waves/node-waves.js?id=a77ee6089ee861f738a07bcb08524128"></script>
+<script src="https://pixinvent.com/demo/vuexy-bootstrap-laravel-admin-template/demo/assets/vendor/libs/hammer/hammer.js?id=75e45fba2e2e1f30e9ddf39038376fd9"></script>
+<script src="https://pixinvent.com/demo/vuexy-bootstrap-laravel-admin-template/demo/assets/vendor/libs/i18n/i18n.js?id=cfe20d3008d53ebbb071df65c4a58732"></script>
+<script src="https://pixinvent.com/demo/vuexy-bootstrap-laravel-admin-template/demo/assets/vendor/libs/typeahead-js/typeahead.js?id=8c315d7e2e7b09a04d8e8efead923241"></script>
+<script src="https://pixinvent.com/demo/vuexy-bootstrap-laravel-admin-template/demo/assets/vendor/js/menu.js?id=5677cde228388efdf8105bb9b6d6b2f2"></script>
+<script src="https://pixinvent.com/demo/vuexy-bootstrap-laravel-admin-template/demo/assets/vendor/libs/apex-charts/apexcharts.js"></script>
+<script src="https://pixinvent.com/demo/vuexy-bootstrap-laravel-admin-template/demo/assets/vendor/libs/datatables-bs5/datatables-bootstrap5.js"></script>
+<!-- END: Page Vendor JS-->
+<!-- BEGIN: Theme JS-->
+<script src="https://pixinvent.com/demo/vuexy-bootstrap-laravel-admin-template/demo/assets/js/main.js?id=22f39d0cfb2cfc2eca135abf93ed7fae"></script>
+<script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+ <script src="https://cdn.datatables.net/buttons/2.3.2/js/dataTables.buttons.min.js"></script>
+  <script src="https://cdn.datatables.net/select/1.5.0/js/dataTables.select.min.js"></script>
+  <script src="{{ asset('app-assets/Editor/js/dataTables.editor.js') }}"></script>
+  <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+
 <script type="text/javascript">
     $(window).on('load', function() {
         if (feather) {

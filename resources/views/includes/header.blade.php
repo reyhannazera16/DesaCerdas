@@ -9,23 +9,16 @@
                 </ul>
             </div>
             <ul class="nav navbar-nav align-items-center ms-auto">
+
                 <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-style"><i class="ficon"
                             data-feather="sun"></i></a></li>
-                <li class="nav-item nav-search"><a class="nav-link nav-link-search"><i class="ficon"
-                            data-feather="search"></i></a>
-                    <div class="search-input">
-                        <div class="search-input-icon"><i data-feather="search"></i></div>
-                        <input class="form-control input" type="text" placeholder="Explore Vuexy..." tabindex="-1"
-                            data-search="search">
-                        <div class="search-input-close"><i data-feather="x"></i></div>
-                        <ul class="search-list search-list-main"></ul>
-                    </div>
-                </li>
+                  <li class="nav-item d-none d-lg-block"><a href="/detail" ><i class="ficon"
+                            data-feather="shopping-cart" style="margin-left: 5px; margin-right:10px;"></i></a></li>
                 <li class="nav-item dropdown dropdown-user">
                     <a class="nav-link dropdown-toggle dropdown-user-link" id="dropdown-user" href="javascript:void(0);"
                         data-bs-toggle="dropdown" aria-haspopup="true">
                         <div class="user-nav d-sm-flex d-none">
-                            <span class="user-name fw-bolder">John Doe</span>
+                            <span class="user-name fw-bolder">Kemang</span>
                             <span class="user-status">Admin</span>
                         </div>
                         <span class="avatar">
@@ -234,7 +227,7 @@
                 <li class="nav-item me-auto">
                     <a class="navbar-brand" href="https://pixinvent.com/demo/vuexy-bootstrap-laravel-admin-template/demo-4">
                         <span class="brand-logo">
-                            <svg viewbox="0 0 139 95" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                            <svg viewbox="0 0 139 95" version="1.1" xmlns="http://newdiskominfo.bogorkab.go.id/wp-content/uploads/2017/02/cropped-logo-pemkab-bogor.png"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" height="24">
                                 <defs>
                                     <lineargradient id="linearGradient-1" x1="100%" y1="10.5120544%" x2="50%"
@@ -296,22 +289,23 @@
                 </li>
                 <li class="nav-item  ">
                     <a href="{{ url('/maps') }}" class="d-flex align-items-center" target="_self">
+                        <i data-feather="map"></i>
+                        <span class="menu-title text-truncate">Potensi Daerah</span>
+                    </a>
+                </li>
+                <li class="nav-item  ">
+                    <a href="{{ url('/umkm') }}" class="d-flex align-items-center" target="_self">
                         <i data-feather="map-pin"></i>
-                        <span class="menu-title text-truncate">Maps</span>
+                        <span class="menu-title text-truncate">Potensi UMKM</span>
                     </a>
                 </li>
                 <li class="nav-item  ">
-                    <a href="{{ url('/form') }}" class="d-flex align-items-center" target="_self">
-                        <i data-feather="file-text"></i>
-                        <span class="menu-title text-truncate">Form</span>
+                    <a href="{{ url('/list') }}" class="d-flex align-items-center" target="_self">
+                        <i data-feather="layers"></i>
+                        <span class="menu-title text-truncate">UMKM Khusus</span>
                     </a>
                 </li>
-                <li class="nav-item  ">
-                    <a href="{{ url('/storage') }}" class="d-flex align-items-center" target="_self">
-                        <i data-feather="hard-drive"></i>
-                        <span class="menu-title text-truncate">Storage</span>
-                    </a>
-                </li>
+
                 {{-- <li class="navigation-header">
                     <span>Apps &amp; Pages</span>
                     <i data-feather="more-horizontal"></i>

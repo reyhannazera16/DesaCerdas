@@ -25,6 +25,32 @@ Route::get('/maps', function () {
     return view('pages.maps');
 });
 
+Route::get('/list', function () {
+    return view('pages.UMKM_LIST');
+});
+
+Route::get('/umkm', function () {
+    return view('pages.UMKM_Potensi');
+});
+
+Route::get('/resi', function () {
+    return view('pages.resi');
+});
+
+Route::get('/detail', function () {
+    return view('pages.detail');
+});
+
+Route::get('/ajukan', function () {
+    return view('pages.ajukan');
+});
+Route::get('/payment', function () {
+    return view('pages.Payment');
+});
+
+Route::get('/finish', function () {
+    return view('pages.finish');
+});
 Route::get('/register', [RegisterController::class, 'index']);
 
 Route::resource('/form', UploadShapefileController::class);
